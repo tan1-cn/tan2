@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蜀韵.成都 - 成都文化旅游官方网站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐼</text></svg>">
+</head>
+<body>
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+            <div class="header-brand">
+                <div class="logo" aria-label="蜀韵.成都 Logo">
+                    <svg viewBox="0 0 48 48" width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="24" cy="24" r="22" fill="#C9A227" />
+                        <text x="24" y="32" font-size="22" text-anchor="middle" fill="#fff" font-family="serif">蜀</text>
+                    </svg>
+                </div>
+                <h1 class="site-title">蜀韵.成都</h1>
+            </div>
+            <nav class="site-nav" id="siteNav">
+                <ul class="nav-list">
+                    <li class="nav-item active"><a href="index.html">首页</a></li>
+                    <li class="nav-item"><a href="#food">美食</a></li>
+                    <li class="nav-item"><a href="#scenic">景点</a></li>
+                    <li class="nav-item"><a href="#culture">文化</a></li>
+                    <li class="nav-item"><a href="#guide">攻略</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+    <section class="banner" id="banner">
+        <div class="carousel" id="carousel">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-slide active">
+                    <img src="sp/e944e545bb0f7b5.jpg" alt="成都夜景 - 锦里古街灯火辉煌">
+                    <div class="slide-caption">
+                        <h2>夜色成都 · 锦里古街</h2>
+                        <p>灯火阑珊处，巴蜀风韵长</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="sp/202599868_1586667914274_mthumb.jpg" alt="成都大熊猫繁育研究基地">
+                    <div class="slide-caption">
+                        <h2>国宝大熊猫 · 天府之都</h2>
+                        <p>憨态可掬，萌动世界</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="sp/2217-2210624d97cb6b70e2ccf341fe4099f3.jpg" alt="都江堰水利工程">
+                    <div class="slide-caption">
+                        <h2>千年都江堰 · 利泽千秋</h2>
+                        <p>世界文化遗产，天府之源</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="sp/R-C.jpg" alt="成都火锅美食">
+                    <div class="slide-caption">
+                        <h2>巴蜀美食 · 火锅飘香</h2>
+                        <p>麻辣鲜香，舌尖上的成都</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" id="prevBtn" aria-label="上一张">&#10094;</button>
+            <button class="carousel-btn next" id="nextBtn" aria-label="下一张">&#10095;</button>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+    <!-- ==================== 视频展示区域 ==================== -->
+    <section class="video-section" id="video">
+        <div class="container">
+            <h2 class="section-title">发现成都</h2>
+            <p class="section-subtitle">一部短片，带你走进天府之国</p>
+            <div class="video-wrapper">
+                <video id="promoVideo" controls poster="https://picsum.photos/seed/chengduvideo/1280/720" preload="metadata">
+                    <source src="sp/cd1.mp4" type="video/mp4">
+                    您的浏览器不支持 video 标签，请升级浏览器。
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 成都介绍文字区域 ==================== -->
+    <section class="intro-section" id="intro">
+        <div class="container">
+            <h2 class="section-title">天府之国 · 成都</h2>
+            <div class="intro-text">
+                <p>
+                    成都，简称「蓉」，别称「锦官城」，是四川省省会与西南枢纽。这里是大熊猫故乡，都江堰千年水利泽被巴蜀；
+                    锦里、宽窄巷子诉说老成都慢生活，火锅川菜飘香四溢；武侯祠与杜甫草堂交相辉映。
+                    漫步太古里、春熙路，潮流与古韵同频；青城山下品茶论道，感受安逸从容。成都，一座来了就不想离开的城市。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 页尾区域 ==================== -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h3>蜀韵.成都</h3>
+                <p>天府之国，熊猫故乡，巴蜀文化之源</p>
+            </div>
+            <div class="footer-links">
+                <h4>快速导航</h4>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#food">美食</a></li>
+                    <li><a href="#scenic">景点</a></li>
+                    <li><a href="#culture">文化</a></li>
+                    <li><a href="#guide">攻略</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>联系我们</h4>
+                <p>地址：四川省成都市武侯区</p>
+                <p>电话：028-0000-0000</p>
+                <p>邮箱：info@shuyun-chengdu.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 蜀韵.成都 文化旅游官方网站 · 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
